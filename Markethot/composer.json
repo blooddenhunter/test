@@ -1,0 +1,22 @@
+{
+    "name": "markethot/sdk",
+    "license": "MIT",
+    "type": "library",
+    "description": "Markethot SDK",
+    "authors": [
+        {
+            "name": "Denis Novikov",
+            "email": "nov.denis92@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "jms/serializer": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Markethot\\": "src/"
+        }
+    }
+}
